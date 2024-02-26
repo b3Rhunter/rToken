@@ -4,18 +4,18 @@ import ABI from './ABI.json';
 import backgroundVideo from './imgs/helldivers-democracy.mp4';
 
 
-const contractAddress = '0xd6176dCfD007A23AEFceC0cB1ace95a0b87565A2';
+const contractAddress = '0xb83D0C355dbd07aC114E1fEEDE969E77b9f9a538';
 
 const scrollNetwork = {
-  chainId: '0x82750',
-  chainName: 'Scroll',
-  rpcUrls: ['https://rpc.scroll.io'],
+  chainId: '0xaa36a7',
+  chainName: 'Sepolia',
+  rpcUrls: ['https://ethereum-sepolia-rpc.publicnode.com'],
   nativeCurrency: {
     name: 'Ethereum',
     symbol: 'ETH',
     decimals: 18,
   },
-  blockExplorerUrls: ['https://scrollscan.com'],
+  blockExplorerUrls: ['https://sepolia.etherscan.io/'],
 };
 
 function App() {
